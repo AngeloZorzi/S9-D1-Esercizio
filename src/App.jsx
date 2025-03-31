@@ -11,6 +11,9 @@ function App() {
       <Image src="https://www.placedog.net/200/200" alt="Immagine Cane" />
       <Button link="https://placebear.com/" text="Place Bears" />
       <Image src="https://www.placebear.com/200/200" alt="Immagine Orso" />
+      <div className="learn">
+        <Button link="https://it.legacy.reactjs.org/" text="Learn React!!!" />
+      </div>
     </>
   );
 }

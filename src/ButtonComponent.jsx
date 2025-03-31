@@ -6,7 +6,7 @@ const Button = function (props) {
         <button>
           <a href={props.link} target="_blank">
             {" "}
-            Bottone per {props.text}{" "}
+            {props.text}{" "}
           </a>
         </button>{" "}
       </p>

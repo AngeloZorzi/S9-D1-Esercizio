@@ -45,3 +45,41 @@
   border-radius: 50%;
   border: solid 5px rebeccapurple;
 }
+.cat:hover {
+  filter: drop-shadow(0 0 2em #aa64ffaa);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cat {
+    animation: logo-spin infinite 15s linear;
+  }
+}
+
+.learn {
+  padding: 1.5rem;
+  position: relative;
+  margin-top: 2rem;
+}
+.learn:hover {
+  filter: drop-shadow(0 0 2em #64ffb4aa);
+}
+
+.learn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/react.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .learn::before {
+    animation: logo-spin infinite 15s linear;
+  }
+}
