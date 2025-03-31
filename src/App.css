@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.cat {
+  border-radius: 50%;
+  border: solid 5px rebeccapurple;
+}
