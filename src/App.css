@@ -50,7 +50,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .cat {
+  .cat:hover {
     animation: logo-spin infinite 15s linear;
   }
 }
