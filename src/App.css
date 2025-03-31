@@ -43,7 +43,7 @@
 
 .cat {
   border-radius: 50%;
-  border: solid 5px rebeccapurple;
+  border: solid 5px rgba(102, 51, 153, 0.693);
 }
 .cat:hover {
   filter: drop-shadow(0 0 2em #aa64ffaa);
@@ -82,4 +82,11 @@
   .learn::before {
     animation: logo-spin infinite 15s linear;
   }
+}
+#titolo {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  color: rgb(227, 140, 239);
+  text-shadow: 4px 3px 0px rgba(240, 46, 170, 0.3);
 }
