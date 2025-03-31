@@ -5,7 +5,7 @@ import Button from "./ButtonComponent";
 function App() {
   return (
     <>
-      <h1 id="titolo"> REACT ESERCIZI DAY 1</h1>
+      <h1 id="titolo">CHOOSE YOUR FAVORITE PLACEHOLDER</h1>
       <Button link="https://placecats.com/" text="Place Cats" />
       <Image src="https://www.placecats.com/200/200" alt="Immagine Gatto" />
       <Button link="https://placedog.net/" text="Place Dogs" />
